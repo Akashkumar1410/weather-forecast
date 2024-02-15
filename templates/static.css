@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Update the image path if necessary */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info .location {
+    font-size: 24px;
+    color: #333;
+}
+
+.weather-info .temperature {
+    font-size: 24px;
+    color: #333;
+}
+
+.weather-info .description {
+    font-size: 18px;
+    color: #777;
+}
+
+.time-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.time-info .current-time {
+    font-size: 24px;
+    color: #333;
+}
